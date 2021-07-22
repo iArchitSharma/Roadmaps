@@ -1,6 +1,6 @@
 # Roadmaps
 This Repo is made for sharing Roadmaps <br>
-*<a href="https://iarchitsharma.github.io/Roadmaps/">Check our site</a>
+<a href="https://iarchitsharma.github.io/Roadmaps/">Check our site</a>
 
 Contributing
 ==========
