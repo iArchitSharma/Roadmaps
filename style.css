@@ -101,9 +101,10 @@ margin-top:30px;
   }
   .box {
     width:100%;
+    margin:0 0px 25px 0;
   }
   body {
   margin-left:3em;
-  margin-right:0em;
+  margin-right:3em;
   }
 }
