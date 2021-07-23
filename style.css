@@ -5,10 +5,11 @@
   --box-ptext:white;
   --box-background:#22262e;
    /* Variable for box Ends */
+  background-color:var(--background-color);
 }
 
 body {
-  background-color:var(--background-color);
+  
   margin-left:4em;
   margin-right:4em;
   
