@@ -101,7 +101,73 @@ margin-top:30px;
 .open-button:active {
   box-shadow: 1px 1px 10px #607d67;
 }
+
 /*CSS for Items Ends*/
+
+/*Footer Starts*/
+
+.footer-x {
+  background-color:var(--box-background);
+  padding: 30px 10px;
+  width:100%;
+  border-top:2px solid #343a40;
+  display:flex;
+  flex-wrap:wrap;
+  
+}
+
+
+.foot-items {
+  font-family:system-ui;
+  color:white;
+  min-width: 25%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border:0px solid transparent;
+}
+.foot-main {
+  max-width: 25%;
+}
+
+.foot-items a{
+  color:white;
+  text-decoration:none;
+  font-size:21px;
+  font-weight:400;
+}
+.foot-items a:hover {
+  font-weight:500;
+}
+.foot-items p{
+  color:#d8d8d8;
+  font-weight:300;
+}
+.foot-items li {
+  list-style-type: none;
+  margin-top:-13px;
+  margin-bottom:13px;
+}
+.links {
+  text-align:center;
+  align-self:left;
+}
+.links a{
+  color:#d8d8d8;
+  font-weight:300;
+}
+.links a:hover{
+  color:white;
+  font-weight:420;
+  text-decoration: underline; 
+}
+.links h4 {
+  margin-top:-10px;
+  font-size:20px;
+  font-weight:400;
+  color:white;
+}
+
+/*Footer Ends*/
 
 /*Media for responsiveness starts*/
 @media screen and (max-width: 1200px) {
@@ -162,7 +228,6 @@ margin-top:30px;
   }
   
   .items-x {
-      
       justify-content:center;
   }
   .box {
@@ -173,5 +238,8 @@ margin-top:30px;
   margin-left:3em;
   margin-right:3em;
   }
+  .foot-main {
+  min-width: 100%;
+}
 }
 /*Media for responsiveness Ends*/
