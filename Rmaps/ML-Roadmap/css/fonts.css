@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "NotoSans";
+  src: url("NotoSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("NotoSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("NotoSans-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("NotoSans-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("NotoSansMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansMono";
+  src: url("NotoSansMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("NotoSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("NotoSerif-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("NotoSerif-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("NotoSerif-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("PermanentMarker-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rock Salt";
+  src: url("RockSalt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nothing You Could Do";
+  src: url("NothingYouCouldDo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saira Stencil One";
+  src: url("SairaStencilOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Love Ya Like A Sister";
+  src: url("LoveYaLikeASister-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Londrina Solid";
+  src: url("LondrinaSolid-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Londrina Solid";
+  src: url("LondrinaSolid-Black.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: System Emoji;
+  src: local('Apple Color Emoji'),
+       local('Android Emoji'),
+       local('Segoe UI Emoji'),
+       local('Segoe UI Symbol');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Noto Emoji";
+  src: url("NotoEmoji-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+

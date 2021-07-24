@@ -1,0 +1,141 @@
+.mapjs-connector-text, .mapjs-node {
+	font-family: NotoSans, "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.mapjs-node {
+	margin: 0;
+	padding: 0;
+	z-index: 3;
+	outline: 0;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	cursor: pointer;
+}
+
+.mapjs-node.selected {
+	z-index: 6;
+}
+.mapjs-add-link {
+	cursor: crosshair;
+}
+.mapjs-add-link .mapjs-node {
+	cursor: alias;
+}
+
+.mapjs-node span {
+	display: block;
+	outline: none;
+	cursor: pointer;
+}
+
+
+.mapjs-node.attr_group span {
+	min-height: 1.5em;
+}
+
+.mapjs-node span[contenteditable=true] {
+	user-select: text;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+	cursor: auto;
+  min-width: 1em;
+  min-height: 1ex;
+}
+.mapjs-node.mapjs-node-transparent span[contenteditable=true] {
+	background-color: white;
+}
+.mapjs-node:focus {
+	outline: 0;
+}
+
+.mapjs-node.dragging {
+	opacity: 0.4;
+	z-index: 5;
+}
+.mapjs-node.droppable {
+	outline: 0;
+	border: 3px dashed #EF6F6F;
+	margin: -2px;
+}
+.mapjs-decorations {
+	position: absolute;
+	display: block;
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+body.hide-decorations .mapjs-decorations {
+	display: none;
+}
+
+.mapjs-node .mapjs-decorations a, .mapjs-node .mapjs-decorations span {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.mapjs-node .mapjs-decorations  a {
+  transition: transform 200ms;
+}
+.mapjs-node .mapjs-decorations  a:hover {
+	transform: scale(2);
+}
+
+.mapjs-draw-container {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}
+.mapjs-draw-container[data-mapjs-role=connector] {
+	z-index: 1;
+}
+.mapjs-draw-container[data-mapjs-role=link] {
+	z-index: 2;
+}
+.mapjs-link-hit {
+	opacity: 0;
+  	fill: transparent;
+	cursor: crosshair;
+	transition: opacity 0.2s;
+}
+.mapjs-link-hit:hover {
+	opacity: 0.1;
+}
+
+.mapjs-arrow {
+}
+#container {
+	background-color: #FFFFFF;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	margin:0;
+	padding:0;
+}
+
+.mapjs-reorder-bounds {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjExcHgiIGhlaWdodD0iMjAuNjM0cHgiPg0KPHBhdGggZD0iTTAuMTk5LDEwLjc5bDkuNjQ2LDkuNjQ2YzAuMTMsMC4xMzMsMC4zMDIsMC4xOTcsMC40NzEsMC4xOTdjMC4xNzMsMCwwLjM0NC0wLjA2NCwwLjQ3My0wLjE5N2wwLjAxMy0wLjAxMQ0KCUMxMC45MjksMjAuMzA1LDExLDIwLjEzMiwxMSwxOS45NTJ2LTQuNjhjMC0wLjE4Mi0wLjA3LTAuMzQ3LTAuMTk4LTAuNDc1TDYuMzIzLDEwLjMybDQuNDc5LTQuNDgzQzEwLjkyOSw1LjcxNCwxMSw1LjU0MywxMSw1LjM2NA0KCVYwLjY4MmMwLTAuMTc2LTAuMDctMC4zNDUtMC4xOTgtMC40NzRsLTAuMDEzLTAuMDEyQzEwLjY2NywwLjA3MSwxMC40OTcsMCwxMC4zMTYsMEMxMC4xNDMsMCw5Ljk3LDAuMDcxLDkuODQ1LDAuMTk2TDAuMTk5LDkuODQ1DQoJQy0wLjA2NiwxMC4xMDQtMC4wNjYsMTAuNTMyLDAuMTk5LDEwLjc5eiIvPg0KPC9zdmc+);
+	background-height: 100%;
+	background-width: 100%;
+	height: 20px;
+	width: 11px;
+	z-index: 999;
+	background-repeat: no-repeat;
+}
+.mapjs-reorder-bounds[mapjs-edge="left"] {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjExcHgiIGhlaWdodD0iMjAuNjM0cHgiPg0KICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTEsIDApIHNjYWxlKC0xLCAxKSI+DQo8cGF0aCBkPSJNMC4xOTksMTAuNzlsOS42NDYsOS42NDZjMC4xMywwLjEzMywwLjMwMiwwLjE5NywwLjQ3MSwwLjE5N2MwLjE3MywwLDAuMzQ0LTAuMDY0LDAuNDczLTAuMTk3bDAuMDEzLTAuMDExDQoJQzEwLjkyOSwyMC4zMDUsMTEsMjAuMTMyLDExLDE5Ljk1MnYtNC42OGMwLTAuMTgyLTAuMDctMC4zNDctMC4xOTgtMC40NzVMNi4zMjMsMTAuMzJsNC40NzktNC40ODNDMTAuOTI5LDUuNzE0LDExLDUuNTQzLDExLDUuMzY0DQoJVjAuNjgyYzAtMC4xNzYtMC4wNy0wLjM0NS0wLjE5OC0wLjQ3NGwtMC4wMTMtMC4wMTJDMTAuNjY3LDAuMDcxLDEwLjQ5NywwLDEwLjMxNiwwQzEwLjE0MywwLDkuOTcsMC4wNzEsOS44NDUsMC4xOTZMMC4xOTksOS44NDUNCglDLTAuMDY2LDEwLjEwNC0wLjA2NiwxMC41MzIsMC4xOTksMTAuNzl6Ii8+DQogIDwvZz4NCjwvc3ZnPg==);
+}
+.mapjs-reorder-bounds[mapjs-edge="top"] {
+	transform: rotate(-90deg);
+}
+
+/*Atlas-specific css*/
+.mapjs-node {
+	user-select: text;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+}
