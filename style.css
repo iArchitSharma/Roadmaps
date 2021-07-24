@@ -241,5 +241,8 @@ margin-top:30px;
   .foot-main {
   min-width: 100%;
 }
+  .links {
+    width:100%;
+  }
 }
 /*Media for responsiveness Ends*/
