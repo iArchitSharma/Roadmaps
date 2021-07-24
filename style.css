@@ -242,7 +242,8 @@ margin-top:30px;
   min-width: 100%;
 }
   .links {
-    width:100%;
+    width:50%;
+    text-align:center;
   }
 }
 /*Media for responsiveness Ends*/
