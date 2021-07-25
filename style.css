@@ -246,4 +246,11 @@ margin-top:30px;
     text-align:center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .heading-x h1 {
+    font-size:25px;
+    margin-bottom:-15px;
+  }
+}
 /*Media for responsiveness Ends*/
