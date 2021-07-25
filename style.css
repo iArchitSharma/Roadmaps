@@ -72,7 +72,8 @@ body {
   margin-top:0;
   background-color:#2c7f40;
   font-family:helvetica;
-  font-size:21px;
+  font-size:18px;
+  font-weight:300;
   letter-spacing:0.8px;
 }
 .des-box {
