@@ -1,6 +1,7 @@
 # Roadmaps
 This Repo is made for sharing Roadmaps related to Computer Science field<br>
 <a href="https://iarchitsharma.github.io/Roadmaps/">Check our site</a>
+<br>We hope that with this roadmaps new developers will find it easier to start with their learning journey.
 
 Contributing
 ==========
